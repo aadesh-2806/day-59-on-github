@@ -4,7 +4,7 @@
 using namespace std;
 
 int main()
-{
+{ 
 	ifstream file("helldo.txt");//scan from  file //each word unique
 	string input;
 	while(getline(file,input))
